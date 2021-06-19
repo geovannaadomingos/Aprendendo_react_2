@@ -1,8 +1,11 @@
 import SectionCards from "../components/SectionCards"
+import Header from "../components/Header"
+
 function Home() {
   return (
     <body>
-      <SectionCards title ="Consumindo API do Harry Potter" />
+      <Header titulo ="Consumindo API do Harry Potter"/>
+      <SectionCards />
     </body>
   );
 }
